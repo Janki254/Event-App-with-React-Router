@@ -1,0 +1,23 @@
+# Ignore Node.js related files and folders
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore build output and other generated files in the Frontend directory
+frontend/build/
+frontend/node_modules/
+
+# Ignore build output and other generated files in the Backend directory
+backend/node_modules/
+
+# Ignore environment-specific files
+.env
+
+# Ignore any log files or debugging outputs
+*.log
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Visual Studio Code settings
+.vscode/

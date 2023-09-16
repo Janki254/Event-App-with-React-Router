@@ -1,0 +1,58 @@
+.form {
+    max-width: 40rem;
+    margin: 2rem auto;
+}
+
+.form label,
+.form input,
+.form textarea {
+    text-align: start;
+    display: block;
+    width: 100%;
+}
+.form ul {
+    text-align: start;
+}
+
+.form input,
+.form textarea {
+    background-color: var(--color-gray-700);
+    color: #fff;
+    border-radius: 4px;
+    font: inherit;
+    padding: 0.5rem;
+    border: 1px solid var(--color-gray-500);
+}
+.form input:focus,
+.form textarea:focus {
+    outline-color: #c4c3c3;
+}
+
+.actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
+.actions button {
+    font: inherit;
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    background-color: var(--color-gray-300);
+    color: var(--color-gray-800);
+    border: none;
+}
+
+.actions button[type='button'] {
+    background-color: transparent;
+    color: var(--color-gray-300);
+}
+
+.actions button:hover {
+    background-color: var(--color-primary-300);
+}
+
+.actions button[type='button']:hover {
+    background-color: var(--color-gray-800);
+}

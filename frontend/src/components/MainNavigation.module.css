@@ -1,0 +1,31 @@
+.header {
+    background-color: var(--color-gray-800);
+    width: 100%;
+    margin: auto;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.list {
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.list a {
+    padding: 0.8rem;
+    font-size: 1.13rem;
+    text-decoration: none;
+    color: var(--color-primary-400);
+}
+
+.list a:hover {
+    color: var(--color-primary-800);
+}
+.list a.active {
+    color: var(--color-primary-800);
+    border-bottom: 3px solid var(--color-primary-800);
+}
+

@@ -1,0 +1,36 @@
+.event {
+    max-width: 50rem;
+    margin: 1rem auto 2rem;
+    text-align: center;
+}
+
+.event img {
+    width: 30rem;
+    border-radius: 4px;
+}
+
+.actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.actions a,
+.actions button {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    color: var(--color-primary-800);
+    padding: 0.35rem 1rem;
+    text-decoration: none;
+    font: inherit;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.actions button {
+    background-color: transparent;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    border: none;
+    color: var(--color-primary-800);
+}
